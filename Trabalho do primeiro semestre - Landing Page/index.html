@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="./imagens/icones/casa.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="Nav-top">
+        <a href="curriculo.html" class="button-top">Currículo</a>
+        <a href="github.html" class="button-top">GitHub</a>
+        <a href="servicos.html" class="button-top">Serviços</a>
+        <a href="contato.html" class="button-top">Contato</a>
+    </div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <img class="img-home" src="./imagens/FotoPerfil.jpeg" alt="Minha foto de perfil">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h1>Olá, Seje Bem-vindo!</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <p>Me chamo Gabriel Camilo e esta é minha  landing page</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="subtitulo">
+                        <h2>Sobre mim</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Meu nome é Gabriel Camilo da Silva, tenho 21 anos, sou Corinthiano, também sou natural de
+                            Curitiba-PR, mas já morei
+                            no interior de São Paulo e na capital do Mato Grosso, atualmente resido em Vila Velha-ES.
+                            Desde pequeno tenho muita curiosidade e interesse sobre a tecnologia, seja sobre a cerca de
+                            hardwares ou softwares, e mesmo sem muita instrução,
+                            eu já mexia com notebooks antigos, seja desmontando as peças com cuidado e montando
+                            novamente,
+                            ou mesmo dentro do ambiente virtual com alguns programas e sites.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            A partir do meu crescimento, eu sempre busquei ter mais conhecimento na área, me
+                            aprofundando cada vez mais neste mundo, até um ponto onde eu
+                            tive um desejo de não mais ser apenas o usuário, e sim ser agora o desenvolvedor de
+                            softwares, para que as outras pessoas utilizem meus.
+                            Aplicativos e sites. Hoje ainda sou o meu próprio usuário, mas busco uma oportunidade de
+                            poder desenvolver algo junto a uma equipe,
+                            tenho o objetivo de desenvolver algo que possa ajudar a nossa sociedade, algo que seja
+                            revolucionário e que eu deixe minha marca na história
+                            assim como outros, deixaram suas contribuições.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="margin-top: 50px; margin-bottom: -50px; justify-content: left;" class="subtitulo">
+                        <h2>Habilidades</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subtitulo">
+                        <ul>
+                            <li>
+                                <h3>BackEnd</h3>
+                                <ul>
+                                    <li>C Sharp</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>FrontEnd</h3>
+                                <ul>
+                                    <li>
+                                        HTML
+                                    </li>
+                                    <li>
+                                        CSS
+                                    </li>
+                                    <li>
+                                        Java Script
+                                    </li>
+                                    <li>C Sharp</li>
+                                </ul>
+                                <br>
+                            <li>Trabalho em equipe.</li>
+                            <li>Fácil aprendizagem.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Melhor jogo da minha Vida</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Infelizmente essa foi a unica maneira de por o video -->
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/WfT-E45VJaE?si=jLjDM0wxOgmqIrkU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        background-color: rgb(197, 197, 197);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        border: 2px solid;
+        border-color: rgb(149, 149, 149);
+        background-color: rgb(169, 169, 169);
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 200px;
+        width: 50%;
+        padding: 50px 150px;
+        border-radius: 1%;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+
+    }
+
+    .subtitulo {
+        justify-content: left;
+    }
+
+    @media (max-width: 1200px) {
+        .container {
+            width: 100%;
+            border: 0;
+            padding: 0;
+        }
+
+        p {
+            margin: 0 10%;
+        }
+
+        .subtitulo {
+            margin-left: 10%;
+            ;
+        }
+    }
+
+    td {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-align: justify;
+    }
+
+    .img-home {
+        margin: 50px 0;
+        width: 15%;
+        border: 2px solid;
+
+        min-width: 200px;
+        border-radius: 100%;
+        border-color: rgb(149, 149, 149);
+
+
+        height: auto;
+    }
+
+    .Nav-top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+
+        background-color: rgb(71, 71, 71);
+        border: 1px 0px solid;
+        border-color: rgb(149, 149, 149);
+        gap: 20px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+        padding: 7px 0px;
+    }
+
+    .button-top {
+        border: 2px solid;
+        padding: 7px 10px;
+        border-color: rgb(149, 149, 149);
+        background-color: rgb(189, 189, 189);
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+        color: rgb(59, 59, 59);
+    }
+</style>

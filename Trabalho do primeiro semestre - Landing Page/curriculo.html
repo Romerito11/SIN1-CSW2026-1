@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="shortcut icon" href="./imagens/icones/curiculo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="Nav-top">
+        <a href="index.html" class="button-top">Início</a>
+        <a href="github.html" class="button-top">GitHub</a>
+        <a href="servicos.html" class="button-top">Serviços</a>
+        <a href="contato.html" class="button-top">Contato</a>
+    </div>
+
+    <div class="container">
+        <h1>Meu Currículo</h1>
+        <div class="corpo"></div>
+        <br>
+        <h2>Experiência Profissional</h2>
+            <p>Assessor Técnico - (SEDES) | Atualmente</p>
+            <p>Estágiario - (SEDES) | 2025</p>
+
+        <br>
+        <h2>Formação Acadêmica</h2>
+            <p>Sistemas de Informação - Universidade Vila Velha (UVV) | Em curso</p>
+            <p>Técnico em TI - CEET VASCO COUTINHO | 2023</p>
+            <p>Introdução à segurança cibernética - SENAI | 2022</p>
+            <p>FUNDAMENTOS DE TI: HARDWARE E SOFTWARE - Fundação Bradesco | 2022</p>
+            <p>15º PIC / Programa de Iniciação Científica Jr - Obempa | 2020</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        background-color: rgb(197, 197, 197);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        border: 2px solid;
+        border-color: rgb(149, 149, 149);
+        background-color: rgb(169, 169, 169);
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 200px;
+        width: 50%;
+        padding: 50px 150px;
+        border-radius: 1%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .corpo {
+        width: 100%;
+        justify-content: left;
+    }
+
+    @media (max-width: 1200px) {
+        .container {
+            width: 100%;
+            border: 0;
+            padding: 50px 0;
+        }
+
+        p {
+            margin: 0 10%;
+        }
+
+        .corpo {
+            margin-left: 10%;
+            ;
+        }
+    }
+
+
+    .Nav-top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+
+        background-color: rgb(71, 71, 71);
+        border: 1px 0px solid;
+        border-color: rgb(149, 149, 149);
+        gap: 20px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+        padding: 7px 0px;
+    }
+
+    .button-top {
+        border: 2px solid;
+        padding: 7px 10px;
+        border-color: rgb(149, 149, 149);
+        background-color: rgb(189, 189, 189);
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+        color: rgb(59, 59, 59);
+    }
+</style>

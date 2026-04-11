@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+    <link rel="shortcut icon" href="./imagens/icones/servico.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="Nav-top">
+        <a href="index.html" class="button-top">Início</a>
+        <a href="curriculo.html" class="button-top">Currículo</a>
+        <a href="github.html" class="button-top">GitHub</a>
+        <a href="contato.html" class="button-top">Contato</a>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        background-color: rgb(197, 197, 197);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        border: 2px solid;
+        border-color: rgb(149, 149, 149);
+        background-color: rgb(169, 169, 169);
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 200px;
+        width: 50%;
+        padding: 50px 150px;
+        border-radius: 1%;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+
+    }
+
+    .subtitulo {
+        justify-content: left;
+    }
+
+    @media (max-width: 1200px) {
+        .container {
+            width: 100%;
+            border: 0;
+            padding: 0;
+        }
+
+        p {
+            margin: 0 10%;
+        }
+
+        .subtitulo {
+            margin-left: 10%;
+            ;
+        }
+    }
+
+    td {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-align: justify;
+    }
+
+    .img-home {
+        margin: 50px 0;
+        width: 15%;
+        border: 2px solid;
+
+        min-width: 200px;
+        border-radius: 100%;
+        border-color: rgb(149, 149, 149);
+
+
+        height: auto;
+    }
+
+    .Nav-top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+
+        background-color: rgb(71, 71, 71);
+        border: 1px 0px solid;
+        border-color: rgb(149, 149, 149);
+        gap: 20px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+        padding: 7px 0px;
+    }
+
+    .button-top {
+        border: 2px solid;
+        padding: 7px 10px;
+        border-color: rgb(149, 149, 149);
+        background-color: rgb(189, 189, 189);
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+        color: rgb(59, 59, 59);
+    }
+</style>
