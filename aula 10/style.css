@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+p{
+    color: chartreuse;
+}
+h1{
+    color: cyan;
+    background-color: yellow;
+}
+h2{
+    color: darkorange;
+    background-color: crimson;
+}
+.cap1 p{
+    text-align: left;
+}
+.cap2 p{
+    text-align: right;
+    color: navy;
+}
