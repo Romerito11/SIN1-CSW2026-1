@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13</title>
+</head>
+
+<body>
+    <div class="tudo">
+        <div class="bloco-m">
+        </div>
+        <div class="bloco-m">
+        </div>
+        <div class="bloco-m">
+        </div>
+        <div class="bloco-m">
+        </div>
+        <div class="bloco-p">
+        </div>
+        <div class="bloco-p">
+        </div>
+        <div class="bloco-m">
+        </div>
+        <div class="bloco-p">
+        </div>
+        <div class="bloco-p">
+        </div>
+        <div class="bloco-g">
+        </div>
+        <div class="bloco-g">
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .bloco-p {
+        flex-basis: 15%;
+        height: 50px;
+        flex-grow: 1;
+        border: 1px solid rgb(0, 0, 133);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .bloco-m {
+        flex-basis: 20%;
+        height: 50px;
+        flex-grow: 2;
+        border: 1px solid rgb(0, 0, 133);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .bloco-g {
+        flex-basis: 45%;
+        height: 50px;
+        flex-grow: 3;
+        border: 1px solid rgb(0, 0, 133);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .tudo {
+        display: flex;
+        height: 50%;
+        width: 50%;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+        align-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+</style>
